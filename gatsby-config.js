@@ -7,6 +7,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: `${__dirname}/src/pages`,
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-typescript`,
@@ -16,6 +23,7 @@ module.exports = {
         allExtensions: true,
       },
     },
+    "gatsby-transformer-remark",
     "gatsby-plugin-postcss",
   ],
 };
