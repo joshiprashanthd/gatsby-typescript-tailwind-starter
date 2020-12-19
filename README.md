@@ -1,8 +1,7 @@
 # Gatsby TypeScript with TailwindCSS Starter
 
-Typescript and TailwindCSS are already configured. PostCSS is used to parse the taiwindcss utility classes.
-You can configure typescript with `tsconfig.json`. TailwindCSS can be configured with `taiwind.config.js` file.
-`purging` option is preconfigured for all javascript and typescript related files `src` folder.
+Typescript and TailwindCSS using PostCSS are already configured. `tailwind.config.js` contains full configuration for `tailwindcss`. The 
+`purging` option is preconfigured for all javascript and typescript related files in `src` folder.
 
 ## Steps to setup
 
